@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QKeyEvent>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,6 +20,11 @@ private slots:
     void on_btnSingleton_clicked();
 
     void on_btnFactory_clicked();
+
+    void on_btnFactory_2_clicked();
+
+
+    void on_btnAbstractFactory_clicked();
 
 private:
     Ui::MainWindow *ui;
