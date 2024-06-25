@@ -21,6 +21,26 @@ SOURCES += \
     AbstractFactory/ShapeFactory.cpp \
     AbstractFactory/Square.cpp \
     AbstractFactory/Triangle.cpp \
+    Builder1/BottlePacking.cpp \
+    Builder1/Builder1Dialog.cpp \
+    Builder1/Burger.cpp \
+    Builder1/ChickenBurger.cpp \
+    Builder1/Coke.cpp \
+    Builder1/ColdDrinks.cpp \
+    Builder1/Items.cpp \
+    Builder1/Meal.cpp \
+    Builder1/MealBuilder.cpp \
+    Builder1/Packing.cpp \
+    Builder1/Pepsi.cpp \
+    Builder1/VegBurger.cpp \
+    Builder1/WrapperPacking.cpp \
+    Builder2/Builder2Dialog.cpp \
+    Builder2/CivilEngineer.cpp \
+    Builder2/House.cpp \
+    Builder2/HouseBuilder.cpp \
+    Builder2/HousePlan.cpp \
+    Builder2/IglooHouseBuilder.cpp \
+    Builder2/TipiHouseBuilder.cpp \
     FactoryMethod1/BMW.cpp \
     FactoryMethod1/BaseCar.cpp \
     FactoryMethod1/CarFactory.cpp \
@@ -53,6 +73,26 @@ HEADERS += \
     AbstractFactory/ShapeFactory.h \
     AbstractFactory/Square.h \
     AbstractFactory/Triangle.h \
+    Builder1/BottlePacking.h \
+    Builder1/Builder1Dialog.h \
+    Builder1/Burger.h \
+    Builder1/ChickenBurger.h \
+    Builder1/Coke.h \
+    Builder1/ColdDrinks.h \
+    Builder1/Items.h \
+    Builder1/Meal.h \
+    Builder1/MealBuilder.h \
+    Builder1/Packing.h \
+    Builder1/Pepsi.h \
+    Builder1/VegBurger.h \
+    Builder1/WrapperPacking.h \
+    Builder2/Builder2Dialog.h \
+    Builder2/CivilEngineer.h \
+    Builder2/House.h \
+    Builder2/HouseBuilder.h \
+    Builder2/HousePlan.h \
+    Builder2/IglooHouseBuilder.h \
+    Builder2/TipiHouseBuilder.h \
     FactoryMethod1/BMW.h \
     FactoryMethod1/BaseCar.h \
     FactoryMethod1/CarFactory.h \
@@ -73,6 +113,8 @@ HEADERS += \
 
 FORMS += \
     AbstractFactory/AbstractFactory.ui \
+    Builder1/Builder1Dialog.ui \
+    Builder2/Builder2Dialog.ui \
     Singleton/SingletonAnotherDialog.ui \
     Singleton/SingletonDialog.ui \
     mainwindow.ui

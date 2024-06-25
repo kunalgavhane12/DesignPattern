@@ -3,6 +3,8 @@
 #include "Singleton/SingletonDialog.h"
 
 #include <AbstractFactory/AbstractFactory.h>
+#include <Builder1/Builder1Dialog.h>
+#include <Builder2/Builder2Dialog.h>
 #include <FactoryMethod1/FactoryMethodClient.h>
 #include <FactoryMethod2/FactoryMethod2.h>
 
@@ -42,6 +44,20 @@ void MainWindow::on_btnFactory_2_clicked()
 void MainWindow::on_btnAbstractFactory_clicked()
 {
     AbstractFactory dlg;
+    dlg.exec();
+}
+
+
+void MainWindow::on_btnBuilder1Pattern_clicked()
+{
+    Builder1Dialog dlg;
+    dlg.exec();
+}
+
+
+void MainWindow::on_btnBuilder2Pattern_clicked()
+{
+    Builder2Dialog dlg;
     dlg.exec();
 }
 
