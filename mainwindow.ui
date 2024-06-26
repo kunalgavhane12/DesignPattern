@@ -107,6 +107,15 @@
       <property name="title">
        <string>Structural</string>
       </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="btnCompositePattern">
+         <property name="text">
+          <string>Composite</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </item>
     <item>

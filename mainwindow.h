@@ -30,6 +30,8 @@ private slots:
 
     void on_btnBuilder2Pattern_clicked();
 
+    void on_btnCompositePattern_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

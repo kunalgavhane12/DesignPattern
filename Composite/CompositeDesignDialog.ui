@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Builder1Dialog</class>
- <widget class="QDialog" name="Builder1Dialog">
+ <class>CompositeDesignDialog</class>
+ <widget class="QDialog" name="CompositeDesignDialog">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>301</width>
-    <height>105</height>
+    <width>293</width>
+    <height>89</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Builder Pattern</string>
+   <string>Dialog</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QPushButton" name="btnVegMeal">
+    <widget class="QPushButton" name="btnGetPrice">
      <property name="text">
-      <string>Veg Meal</string>
+      <string>Get Price</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QPushButton" name="btnNonVegMeal">
-     <property name="text">
-      <string>Non Veg Meal</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="btnClose">
      <property name="text">
       <string>Close</string>
      </property>
@@ -40,18 +33,18 @@
  <resources/>
  <connections>
   <connection>
-   <sender>pushButton_3</sender>
+   <sender>btnClose</sender>
    <signal>clicked()</signal>
-   <receiver>Builder1Dialog</receiver>
+   <receiver>CompositeDesignDialog</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>95</x>
-     <y>80</y>
+     <x>111</x>
+     <y>67</y>
     </hint>
     <hint type="destinationlabel">
-     <x>102</x>
-     <y>96</y>
+     <x>114</x>
+     <y>79</y>
     </hint>
    </hints>
   </connection>
